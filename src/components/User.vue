@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { octokitMixin } from "../mixins/octokitMixin";
+import { octokitMixin } from "./../mixin/octokitMixn";
 
 export default {
   name: "User",

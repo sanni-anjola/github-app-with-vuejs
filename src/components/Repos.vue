@@ -10,7 +10,7 @@
 
 <script>
 import Issues from "./repo/Issues.vue";
-import { octokitMixin } from "../mixins/octokitMixin";
+import { octokitMixin } from "./../mixin/octokitMixn";
 
 export default {
   name: "Repos",
