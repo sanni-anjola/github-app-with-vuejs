@@ -3,6 +3,9 @@
     <div>
         <label for="githubToken">Github Token</label>
         <br />
+        <input id="githubToken" v-model="githubToken" />
+    </div>
+    <div>
         <input type="submit" value="Save token" />
         <button type="button" @click="clearToken">Clear Token</button>
     </div>
